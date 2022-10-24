@@ -90,7 +90,7 @@
       "text": "Tutorial",
       "responseType": "image-multiple-choice",
       "options": [
-        "This is an example of an interaction you can perform, the brushing: by clicking, holding the left mouse key and then releasing it, it is possible to select a range of flights from which getting the data we are interested on."
+        "This is an example of an interaction you can perform, the brushing: by clicking and holding the left mouse key, moving it right (or left) and then releasing it, it is possible to select a range of flights from which getting the data we are interested on."
       ],
       "images": [
         "brush_example.gif"

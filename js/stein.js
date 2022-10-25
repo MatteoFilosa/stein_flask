@@ -11,6 +11,20 @@ var serverUploadUrl = "save.php";
 *
 *
 */
+/*
+function SendMail() {
+    var params = {
+        from: "steinmailservice@gmail.com",
+        to: "filosa.1793997@studenti.uniroma1.it",
+        subject: "eval",
+        message: "Eval",
+        attachment: [
+            { data : }
+        ]
+
+    }
+}
+*/
 
 ;Array.prototype.swap = function(i, j){
     let temp = this[i];
@@ -321,6 +335,7 @@ window.Stein = new class{
         this.evaluation = undefined;
         this.test = undefined;
         this.baseUrl = location.href.substr(0,location.href.lastIndexOf("/") + 1); 
+        
     }
 
 
@@ -3722,6 +3737,7 @@ window.Stein = new class{
         _this.stein.downloadJson(filename, _this._generateSurveyResult());
     }
 
+    //parteimportante
     _generateSurveyResult(){
         var _this = this;
 

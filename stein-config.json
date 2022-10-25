@@ -37,7 +37,8 @@
       "responseType": "multiple-choice",
       "options": [
         "Male",
-        "Female"
+        "Female",
+        "Other"
       ],
       "images": [],
       "mandatory": true

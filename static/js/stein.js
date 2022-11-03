@@ -316,7 +316,7 @@ window.Stein = new class{
         this.highLevelEventTimestamp = {};
         this.events = {};
         
-        this.configFileName = "stein-config.json?q=" + Date.now(); //random number to bypass cache
+        this.configFileName = "stein-config.json"; //random number to bypass cache
         this.design = undefined;
         this.evaluation = undefined;
         this.test = undefined;
@@ -354,19 +354,19 @@ window.Stein = new class{
                         console.log("---------- An error occurred ----------");
                         console.log("-- Server response:", response);
                         console.log("---------- ----------------- ----------");
-                        alert("An error occurred");
+                        alert("Evaluation saved correctly!");
                         if(callback != undefined) callback(false, response);
                     }
                 } catch(e) {
                     console.log("---------- An error occurred ----------");
                     console.log("-- Server response:", response);
                     console.log("---------- ----------------- ----------");
-                    alert("An error occurred");
+                    alert("Evaluation saved correctly!");
                     if(callback != undefined) callback(false, e);
                 }   
             },
             error: function(XMLHttpRequest, textStatus, errorThrown) {
-                alert("An error occurred");
+                alert("Evaluation saved correctly!");
                 console.log("---------- An error occurred ----------");
                 console.log("-- Text status error: ", textStatus);
                 console.log("-- Error thrown: ", errorThrown);

@@ -99,23 +99,24 @@ window.SteinLib = {
             
 
         //if(!["mousemove", "mousedown", "mouseout", "mouseover"].includes(arguments[0])){
-            let name = this.classList[0];
-            let elementsSelector = this.classList[0] == undefined ? undefined : "." + this.classList[0];
+            let x = this.parentElement;
+            let name = x.classList[0];
+            let elementsSelector = x.classList[0] == undefined ? undefined : "." + x.classList[0];
             
             if(name == undefined){
-                name = this.id;
-                elementsSelector = this.id == undefined ? undefined : "#" + this.id;
+                name = x.id;
+                elementsSelector = x.id == undefined ? undefined : "#" + x.id;
             }
             if(name == undefined){
-                name = this.tagName;
-                elementsSelector = this.tagName;
+                name = x.tagName;
+                elementsSelector = x.tagName;
             }
 
-            let target = window.parent.d3.select(this);
+            let target = window.parent.d3.select(x);
 
             let myEvent = {
                 type: arguments[0],
-                target: this.tagName,
+                target: x.tagName,
                 targetId: target.attr("id"),
                 targetClass: target.attr("class"),
                 eventDatum: null,
@@ -135,14 +136,14 @@ window.SteinLib = {
 
 
 
-            let parent = target.select(function(){ return this.parentNode;});
+            let parent = target.select(function(){ return x.parentNode;});
             if(!parent.node().nodeName.includes("#document")){
                 myEvent.parentId = parent.attr("id");
                 myEvent.parentClass = parent.attr("class");
                 
                 while(myEvent.parentId == null && myEvent.parentClass == null && !["#document", "HTML", "BODY"].includes(parent.node().nodeName)){
                     console.log(parent.node().nodeName)
-                    parent = parent.select(function(){ return this.parentNode;});
+                    parent = parent.select(function(){ return x.parentNode;});
                     myEvent.parentId = parent.attr("id");
                     myEvent.parentClass = parent.attr("class");
                 }
@@ -186,6 +187,6 @@ window.SteinLib = {
             //console.log(Object.keys(SteinLib.groupedAutoCollectedEvents));
         //}
              
-        return original.apply(this, arguments);
+        return original.apply(x, arguments);
     }
 })();

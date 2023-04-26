@@ -1,4 +1,4 @@
-A) Steps to run the experiment for the first time:
+A) Steps to run the experiment (design or evaluation phase) for the first time:
 
 1) Install the requirements running "pip install -r requirements.txt" (If you don't have pip installed, install it)
 2) Create a virtual environment by running the command "python -m venv <name_of_the_virtual_environment>" in the terminal

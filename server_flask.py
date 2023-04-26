@@ -15,7 +15,7 @@ app.config['UPLOAD_FOLDER'] = 'static/files'
 
 @app.route("/")
 def home():
-    return render_template('evaluation.html') #later, evaluation.html
+    return render_template('evaluation.html') #change this do 'design.html' in order to design a new questionnaire.
 
 class UploadFileForm(FlaskForm):
     file = FileField("File", validators=[InputRequired()])

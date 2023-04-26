@@ -8,9 +8,9 @@ Powershell terminal in admin mode and enter the command "Set-ExecutionPolicy unr
 5) In the terminal, execute the command "set FLASK_APP=server_flask.py" or " $env:FLASK_APP = "server_flask" "
 6) In the terminal, execute the command "flask run"
 
-The server should now be running in localhost. Press the key combination "CTRL+C" to interrupt it.
+The server should now be running in localhost. Press the key combination "CTRL+C" to interrupt it. If it is not the first time running the experiment, follow only from point 3) to point 6).
 
-B) How to change from evaluation to design phase and viceversa:
+B) How to change the experiment's URL and how to change from evaluation to design phase and viceversa:
 
 1) In the "static" folder, you can find the file "stein-config.json". Change the "systemUrl" value to the desired url  
 2) In the "server_flask.py" file, in row 18, change "evaluation.html" in "design.html". This is needed in order to design the new experiment. Remember to revert this change, when the design phase is finished, in order to run the real evaluation!

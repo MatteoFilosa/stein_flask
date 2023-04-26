@@ -10,7 +10,7 @@ Powershell terminal in admin mode and enter the command "Set-ExecutionPolicy unr
 
 The server should now be running in localhost. Press the key combination "CTRL+C" to interrupt it.
 
-B) Running the design phase:
+B) How to change from evaluation to design phase and viceversa:
 
 1) In the "static" folder, you can find the file "stein-config.json". Change the "systemUrl" value to the desired url  
 2) In the "server_flask.py" file, in row 18, change "evaluation.html" in "design.html". This is needed in order to design the new experiment. Remember to revert this change, when the design phase is finished, in order to run the real evaluation!

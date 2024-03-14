@@ -1,0 +1,287 @@
+{
+    "stein": "This is a Stein configuration file",
+    "steinVersion": 7,
+    "creation": "20240314-145322",
+    "export": "20240314-145406",
+    "systemUrl": "http://awareserver.dis.uniroma1.it/nemesis/",
+    "uploadUrl": "",
+    "title": "",
+    "description": "",
+    "lastEditedFileName": "",
+    "dataTypes": [
+        {
+            "name": "undefined",
+            "toStringFunction": "(function(d){var result = d.toString();/*body-start*//*body-end*/;return result;})"
+        },
+        {
+            "name": "ui-datepicker",
+            "toStringFunction": "(function(d){var result = d.toString();/*body-start*//*body-end*/;return result;})"
+        },
+        {
+            "name": "elemMatrix",
+            "toStringFunction": "(function(d){var result = d.toString();/*body-start*//*body-end*/;return result;})"
+        },
+        {
+            "name": "legendSquare",
+            "toStringFunction": "(function(d){var result = d.toString();/*body-start*//*body-end*/;return result;})"
+        },
+        {
+            "name": "dot",
+            "toStringFunction": "(function(d){var result = d.toString();/*body-start*//*body-end*/;return result;})"
+        },
+        {
+            "name": "list-area",
+            "toStringFunction": "(function(d){var result = d.toString();/*body-start*//*body-end*/;return result;})"
+        },
+        {
+            "name": "all-only",
+            "toStringFunction": "(function(d){var result = d.toString();/*body-start*//*body-end*/;return result;})"
+        },
+        {
+            "name": "checkdis",
+            "toStringFunction": "(function(d){var result = d.toString();/*body-start*//*body-end*/;return result;})"
+        },
+        {
+            "name": "nocheck",
+            "toStringFunction": "(function(d){var result = d.toString();/*body-start*//*body-end*/;return result;})"
+        },
+        {
+            "name": "atd",
+            "toStringFunction": "(function(d){var result = d.toString();/*body-start*//*body-end*/;return result;})"
+        },
+        {
+            "name": "button",
+            "toStringFunction": "(function(d){var result = d.toString();/*body-start*//*body-end*/;return result;})"
+        },
+        {
+            "name": "",
+            "toStringFunction": "(function(d){var result = d.toString();/*body-start*//*body-end*/;return result;})"
+        }
+    ],
+    "events": [
+        {
+            "type": "mouseout",
+            "name": "mouseout-on-ui-datepicker",
+            "dataType": "ui-datepicker",
+            "contributeToAnswer": "Yes",
+            "specializeEvent": "(function(event){if(event.type != 'mouseout') return false;var result = false;if(event.targetClass.split('.').includes('ui-datepicker')) result = true;;return result;})",
+            "traceData": "(function(event){var result = null;if(event.targetId != '') result = event.targetId;\nelse if(event.targetClass != '') result = event.targetClass;\nelse if(event.parentId != '') result = event.parentId;\nelse if(event.parentClass != '') result = event.parentClass;\nelse result = event.targetId;;return result;})",
+            "generator": "mouseout/DIV/ui-datepicker-div/ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all"
+        },
+        {
+            "type": "mouseover",
+            "name": "mouseover-on-ui-datepicker",
+            "dataType": "ui-datepicker",
+            "contributeToAnswer": "Yes",
+            "specializeEvent": "(function(event){if(event.type != 'mouseover') return false;var result = false;if(event.targetClass.split('.').includes('ui-datepicker')) result = true;;return result;})",
+            "traceData": "(function(event){var result = null;if(event.targetId != '') result = event.targetId;\nelse if(event.targetClass != '') result = event.targetClass;\nelse if(event.parentId != '') result = event.parentId;\nelse if(event.parentClass != '') result = event.parentClass;\nelse result = event.targetId;;return result;})",
+            "generator": "mouseover/DIV/ui-datepicker-div/ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all"
+        },
+        {
+            "type": "mouseover",
+            "name": "mouseover-on-elemMatrix",
+            "dataType": "elemMatrix",
+            "contributeToAnswer": "Yes",
+            "specializeEvent": "(function(event){if(event.type != 'mouseover') return false;var result = false;if(event.targetClass.split('.').includes('elemMatrix')) result = true;;return result;})",
+            "traceData": "(function(event){var result = null;if(event.targetId != '') result = event.targetId;\nelse if(event.targetClass != '') result = event.targetClass;\nelse if(event.parentId != '') result = event.parentId;\nelse if(event.parentClass != '') result = event.parentClass;\nelse result = event.targetId;;return result;})",
+            "generator": "mouseover/rect/131-125/elemMatrix.row131"
+        },
+        {
+            "type": "mouseout",
+            "name": "mouseout-on-elemMatrix",
+            "dataType": "elemMatrix",
+            "contributeToAnswer": "Yes",
+            "specializeEvent": "(function(event){if(event.type != 'mouseout') return false;var result = false;if(event.targetClass.split('.').includes('elemMatrix')) result = true;;return result;})",
+            "traceData": "(function(event){var result = null;if(event.targetId != '') result = event.targetId;\nelse if(event.targetClass != '') result = event.targetClass;\nelse if(event.parentId != '') result = event.parentId;\nelse if(event.parentClass != '') result = event.parentClass;\nelse result = event.targetId;;return result;})",
+            "generator": "mouseout/rect/131-125/elemMatrix.row131"
+        },
+        {
+            "type": "click",
+            "name": "click-on-legendSquare",
+            "dataType": "legendSquare",
+            "contributeToAnswer": "Yes",
+            "specializeEvent": "(function(event){if(event.type != 'click') return false;var result = false;if(event.targetClass.split('.').includes('legendSquare')) result = true;;return result;})",
+            "traceData": "(function(event){var result = null;if(event.targetId != '') result = event.targetId;\nelse if(event.targetClass != '') result = event.targetClass;\nelse if(event.parentId != '') result = event.parentId;\nelse if(event.parentClass != '') result = event.parentClass;\nelse result = event.targetClass;;return result;})",
+            "generator": "click/rect//legendSquare"
+        },
+        {
+            "type": "mouseover",
+            "name": "mouseover-on-dot",
+            "dataType": "dot",
+            "contributeToAnswer": "Yes",
+            "specializeEvent": "(function(event){if(event.type != 'mouseover') return false;var result = false;if(event.targetClass.split('.').includes('dot')) result = true;;return result;})",
+            "traceData": "(function(event){var result = null;if(event.targetId != '') result = event.targetId;\nelse if(event.targetClass != '') result = event.targetClass;\nelse if(event.parentId != '') result = event.parentId;\nelse if(event.parentClass != '') result = event.parentClass;\nelse result = event.targetClass;;return result;})",
+            "generator": "mouseover/circle//dot"
+        },
+        {
+            "type": "mouseout",
+            "name": "mouseout-on-dot",
+            "dataType": "dot",
+            "contributeToAnswer": "Yes",
+            "specializeEvent": "(function(event){if(event.type != 'mouseout') return false;var result = false;if(event.targetClass.split('.').includes('dot')) result = true;;return result;})",
+            "traceData": "(function(event){var result = null;if(event.targetId != '') result = event.targetId;\nelse if(event.targetClass != '') result = event.targetClass;\nelse if(event.parentId != '') result = event.parentId;\nelse if(event.parentClass != '') result = event.parentClass;\nelse result = event.targetClass;;return result;})",
+            "generator": "mouseout/circle//dot"
+        },
+        {
+            "type": "click",
+            "name": "click-on-dot",
+            "dataType": "dot",
+            "contributeToAnswer": "Yes",
+            "specializeEvent": "(function(event){if(event.type != 'click') return false;var result = false;if(event.targetClass.split('.').includes('dot')) result = true;;return result;})",
+            "traceData": "(function(event){var result = null;if(event.targetId != '') result = event.targetId;\nelse if(event.targetClass != '') result = event.targetClass;\nelse if(event.parentId != '') result = event.parentId;\nelse if(event.parentClass != '') result = event.parentClass;\nelse result = event.targetClass;;return result;})",
+            "generator": "click/circle//dot"
+        },
+        {
+            "type": "click",
+            "name": "click-on-all-only",
+            "dataType": "all-only",
+            "contributeToAnswer": "Yes",
+            "specializeEvent": "(function(event){if(event.type != 'click') return false;var result = false;if(event.targetId == 'all-only') result = true;;return result;})",
+            "traceData": "(function(event){var result = null;if(event.targetId != '') result = event.targetId;\nelse if(event.targetClass != '') result = event.targetClass;\nelse if(event.parentId != '') result = event.parentId;\nelse if(event.parentClass != '') result = event.parentClass;\nelse result = event.targetId;;return result;})",
+            "generator": "click/INPUT/all-only/"
+        },
+        {
+            "type": "change",
+            "name": "change-on-all-only",
+            "dataType": "all-only",
+            "contributeToAnswer": "Yes",
+            "specializeEvent": "(function(event){if(event.type != 'change') return false;var result = false;if(event.targetId == 'all-only') result = true;;return result;})",
+            "traceData": "(function(event){var result = null;if(event.targetId != '') result = event.targetId;\nelse if(event.targetClass != '') result = event.targetClass;\nelse if(event.parentId != '') result = event.parentId;\nelse if(event.parentClass != '') result = event.parentClass;\nelse result = event.targetId;;return result;})",
+            "generator": "change/INPUT/all-only/"
+        },
+        {
+            "type": "click",
+            "name": "click-on-checkdis",
+            "dataType": "checkdis",
+            "contributeToAnswer": "Yes",
+            "specializeEvent": "(function(event){if(event.type != 'click') return false;var result = false;if(event.targetClass.split('.').includes('checkdis')) result = true;;return result;})",
+            "traceData": "(function(event){var result = null;if(event.targetId != '') result = event.targetId;\nelse if(event.targetClass != '') result = event.targetClass;\nelse if(event.parentId != '') result = event.parentId;\nelse if(event.parentClass != '') result = event.parentClass;\nelse result = event.targetId;;return result;})",
+            "generator": "click/INPUT/breast neoplasms /checkdis"
+        },
+        {
+            "type": "click",
+            "name": "click-on-list-area",
+            "dataType": "",
+            "contributeToAnswer": "Yes",
+            "specializeEvent": "(function(event){if(event.type != 'click') return false;var result = false;if(event.parentId == list-area') result = true;;return result;})",
+            "traceData": "(function(event){var result = null;if(event.targetId != '') result = event.targetId;\nelse if(event.targetClass != '') result = event.targetClass;\nelse if(event.parentId != '') result = event.parentId;\nelse if(event.parentClass != '') result = event.parentClass;\nelse result = event.target;;return result;})",
+            "generator": "click/INPUT//"
+        },
+        {
+            "type": "click",
+            "name": "click-on-button",
+            "dataType": "button",
+            "contributeToAnswer": "Yes",
+            "specializeEvent": "(function(event){if(event.type != 'click') return false;var result = false;if(event.targetClass.split('.').includes('button')) result = true;;return result;})",
+            "traceData": "(function(event){var result = null;if(event.targetId != '') result = event.targetId;\nelse if(event.targetClass != '') result = event.targetClass;\nelse if(event.parentId != '') result = event.parentId;\nelse if(event.parentClass != '') result = event.parentClass;\nelse result = event.targetId;;return result;})",
+            "generator": "click/INPUT/cancdis/button"
+        },
+        {
+            "type": "click",
+            "name": "click-on-atd",
+            "dataType": "atd",
+            "contributeToAnswer": "Yes",
+            "specializeEvent": "(function(event){if(event.type != 'click') return false;var result = false;if(event.targetClass.split('.').includes('atd')) result = true;;return result;})",
+            "traceData": "(function(event){var result = null;if(event.targetId != '') result = event.targetId;\nelse if(event.targetClass != '') result = event.targetClass;\nelse if(event.parentId != '') result = event.parentId;\nelse if(event.parentClass != '') result = event.parentClass;\nelse result = event.targetClass;;return result;})",
+            "generator": "click/TD//atd"
+        },
+        {
+            "type": "mouseout",
+            "name": "mouseout-on-atd",
+            "dataType": "atd",
+            "contributeToAnswer": "Yes",
+            "specializeEvent": "(function(event){if(event.type != 'mouseout') return false;var result = false;if(event.targetClass.split('.').includes('atd')) result = true;;return result;})",
+            "traceData": "(function(event){var result = null;if(event.targetId != '') result = event.targetId;\nelse if(event.targetClass != '') result = event.targetClass;\nelse if(event.parentId != '') result = event.parentId;\nelse if(event.parentClass != '') result = event.parentClass;\nelse result = event.targetClass;;return result;})",
+            "generator": "mouseout/TD//atd"
+        },
+        {
+            "type": "mouseover",
+            "name": "mouseover-on-atd",
+            "dataType": "atd",
+            "contributeToAnswer": "Yes",
+            "specializeEvent": "(function(event){if(event.type != 'mouseover') return false;var result = false;if(event.targetClass.split('.').includes('atd')) result = true;;return result;})",
+            "traceData": "(function(event){var result = null;if(event.targetId != '') result = event.targetId;\nelse if(event.targetClass != '') result = event.targetClass;\nelse if(event.parentId != '') result = event.parentId;\nelse if(event.parentClass != '') result = event.parentClass;\nelse result = event.targetClass;;return result;})",
+            "generator": "mouseover/TD//atd"
+        },
+        {
+            "type": "change",
+            "name": "change-on-nocheck",
+            "dataType": "nocheck",
+            "contributeToAnswer": "Yes",
+            "specializeEvent": "(function(event){if(event.type != 'change') return false;var result = false;if(event.targetClass.split('.').includes('nocheck')) result = true;;return result;})",
+            "traceData": "(function(event){var result = null;if(event.targetId != '') result = event.targetId;\nelse if(event.targetClass != '') result = event.targetClass;\nelse if(event.parentId != '') result = event.parentId;\nelse if(event.parentClass != '') result = event.parentClass;\nelse result = event.targetId;;return result;})",
+            "generator": "change/INPUT/40/nocheck"
+        },
+        {
+            "type": "change",
+            "name": "change-on-checkdis",
+            "dataType": "checkdis",
+            "contributeToAnswer": "Yes",
+            "specializeEvent": "(function(event){if(event.type != 'change') return false;var result = false;if(event.targetClass.split('.').includes('checkdis')) result = true;;return result;})",
+            "traceData": "(function(event){var result = null;if(event.targetId != '') result = event.targetId;\nelse if(event.targetClass != '') result = event.targetClass;\nelse if(event.parentId != '') result = event.parentId;\nelse if(event.parentClass != '') result = event.parentClass;\nelse result = event.targetId;;return result;})",
+            "generator": "change/INPUT/breast neoplasms /checkdis"
+        },
+        {
+            "type": "click",
+            "name": "click-on-nocheck",
+            "dataType": "nocheck",
+            "contributeToAnswer": "Yes",
+            "specializeEvent": "(function(event){if(event.type != 'click') return false;var result = false;if(event.targetClass.split('.').includes('nocheck')) result = true;;return result;})",
+            "traceData": "(function(event){var result = null;if(event.targetId != '') result = event.targetId;\nelse if(event.targetClass != '') result = event.targetClass;\nelse if(event.parentId != '') result = event.parentId;\nelse if(event.parentClass != '') result = event.parentClass;\nelse result = event.targetId;;return result;})",
+            "generator": "click/INPUT/40/nocheck"
+        }
+    ],
+    "initialQuestions": [
+        {
+            "id": 1,
+            "text": "What is your age ?",
+            "responseType": "multiple-choice",
+            "options": [
+                "Under 18",
+                "18-24",
+                "25-34",
+                "35-44",
+                "45-54",
+                "More than 54"
+            ],
+            "images": [],
+            "mandatory": true
+        },
+        {
+            "id": 2,
+            "text": "Select your gender:",
+            "responseType": "multiple-choice",
+            "options": [
+                "Male",
+                "Female"
+            ],
+            "images": [],
+            "mandatory": true
+        }
+    ],
+    "systemQuestions": [
+        {
+            "id": 1,
+            "text": "Explore",
+            "responseType": "auto-computed-list",
+            "options": [],
+            "images": [],
+            "dataType": "undefined",
+            "beforeFunction": "(function(){/*body-start*//*Call this function to notify to Stein that the system is loaded.*/\nif(SteinLib) SteinLib.systemLoaded();/*body-end*/;})",
+            "afterFunction": "(function(){/*body-start*//*body-end*/;})",
+            "mandatory": true,
+            "trackMouse": false,
+            "trackMouseInterval": 200
+        }
+    ],
+    "finalQuestions": [
+        {
+            "id": 1,
+            "text": "Please provide us additional comments if you have any.",
+            "responseType": "large-text",
+            "options": [],
+            "images": [],
+            "mandatory": true
+        }
+    ]
+}

@@ -4,6 +4,7 @@ from wtforms import FileField, SubmitField
 from werkzeug.utils import secure_filename
 import os
 from wtforms.validators import InputRequired
+from flask_cors import CORS
 
 app = Flask(__name__,
             static_url_path='', 
@@ -12,6 +13,8 @@ app = Flask(__name__,
 
 app.config['SECRET_KEY'] = 'supersecretkey'
 app.config['UPLOAD_FOLDER'] = 'static/files'
+
+CORS(app)
 
 @app.route("/")
 def home():

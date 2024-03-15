@@ -20,3 +20,8 @@ B) How to change the experiment's URL and how to change from evaluation to desig
 6) To run the real experiment instead of the design phase, change, in the "server_flask.py" file, at row 18, "design.html" in "evaluation.html"
 
 N.B: The "Upload" functionality does not work at the end of the evaluation phase. Instead, the file, containing the evaluation's results, can be downloaded to your machine.
+
+
+-----RUN VISUALIZATIONS WITH CORS ISSUES-----
+
+On Windows, type "run" in the bottom search bar, then paste "chrome.exe --user-data-dir="C://Chrome dev session" --disable-web-security" (If you have chrome)

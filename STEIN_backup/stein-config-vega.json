@@ -1,0 +1,192 @@
+{
+    "stein": "This is a Stein configuration file",
+    "steinVersion": 7,
+    "creation": "20240314-174535",
+    "export": "20240314-174616",
+    "systemUrl": "https://vega.github.io/vega/examples/zoomable-scatter-plot/",
+    "uploadUrl": "",
+    "title": "",
+    "description": "",
+    "lastEditedFileName": "",
+    "dataTypes": [
+        {
+            "name": "undefined",
+            "toStringFunction": "(function(d){var result = d.toString();/*body-start*//*body-end*/;return result;})"
+        },
+        {
+            "name": "marks",
+            "toStringFunction": "(function(d){var result = d.toString();/*body-start*//*body-end*/;return result;})"
+        },
+        {
+            "name": "zoomable-scatter-plot-png",
+            "toStringFunction": "(function(d){var result = d.toString();/*body-start*//*body-end*/;return result;})"
+        },
+        {
+            "name": "zoomable-scatter-plot-svg",
+            "toStringFunction": "(function(d){var result = d.toString();/*body-start*//*body-end*/;return result;})"
+        }
+    ],
+    "events": [
+        {
+            "type": "click",
+            "name": "click-on-marks",
+            "dataType": "marks",
+            "contributeToAnswer": "Yes",
+            "specializeEvent": "(function(event){if(event.type != 'click') return false;var result = false;if(event.targetClass.split('.').includes('marks')) result = true;;return result;})",
+            "traceData": "(function(event){var result = null;if(event.targetId != '') result = event.targetId;\nelse if(event.targetClass != '') result = event.targetClass;\nelse if(event.parentId != '') result = event.parentId;\nelse if(event.parentClass != '') result = event.parentClass;\nelse result = event.targetClass;;return result;})",
+            "generator": "click/svg//marks"
+        },
+        {
+            "type": "pointerout",
+            "name": "pointerout-on-marks",
+            "dataType": "marks",
+            "contributeToAnswer": "Yes",
+            "specializeEvent": "(function(event){if(event.type != 'pointerout') return false;var result = false;if(event.targetClass.split('.').includes('marks')) result = true;;return result;})",
+            "traceData": "(function(event){var result = null;if(event.targetId != '') result = event.targetId;\nelse if(event.targetClass != '') result = event.targetClass;\nelse if(event.parentId != '') result = event.parentId;\nelse if(event.parentClass != '') result = event.parentClass;\nelse result = event.targetClass;;return result;})",
+            "generator": "pointerout/svg//marks"
+        },
+        {
+            "type": "pointermove",
+            "name": "pointermove-on-marks",
+            "dataType": "marks",
+            "contributeToAnswer": "Yes",
+            "specializeEvent": "(function(event){if(event.type != 'pointermove') return false;var result = false;if(event.targetClass.split('.').includes('marks')) result = true;;return result;})",
+            "traceData": "(function(event){var result = null;if(event.targetId != '') result = event.targetId;\nelse if(event.targetClass != '') result = event.targetClass;\nelse if(event.parentId != '') result = event.parentId;\nelse if(event.parentClass != '') result = event.parentClass;\nelse result = event.targetClass;;return result;})",
+            "generator": "pointermove/svg//marks"
+        },
+        {
+            "type": "pointerover",
+            "name": "pointerover-on-marks",
+            "dataType": "marks",
+            "contributeToAnswer": "Yes",
+            "specializeEvent": "(function(event){if(event.type != 'pointerover') return false;var result = false;if(event.targetClass.split('.').includes('marks')) result = true;;return result;})",
+            "traceData": "(function(event){var result = null;if(event.targetId != '') result = event.targetId;\nelse if(event.targetClass != '') result = event.targetClass;\nelse if(event.parentId != '') result = event.parentId;\nelse if(event.parentClass != '') result = event.parentClass;\nelse result = event.targetClass;;return result;})",
+            "generator": "pointerover/svg//marks"
+        },
+        {
+            "type": "pointerdown",
+            "name": "pointerdown-on-marks",
+            "dataType": "marks",
+            "contributeToAnswer": "Yes",
+            "specializeEvent": "(function(event){if(event.type != 'pointerdown') return false;var result = false;if(event.targetClass.split('.').includes('marks')) result = true;;return result;})",
+            "traceData": "(function(event){var result = null;if(event.targetId != '') result = event.targetId;\nelse if(event.targetClass != '') result = event.targetClass;\nelse if(event.parentId != '') result = event.parentId;\nelse if(event.parentClass != '') result = event.parentClass;\nelse result = event.targetClass;;return result;})",
+            "generator": "pointerdown/svg//marks"
+        },
+        {
+            "type": "pointerup",
+            "name": "pointerup-on-marks",
+            "dataType": "marks",
+            "contributeToAnswer": "Yes",
+            "specializeEvent": "(function(event){if(event.type != 'pointerup') return false;var result = false;if(event.targetClass.split('.').includes('marks')) result = true;;return result;})",
+            "traceData": "(function(event){var result = null;if(event.targetId != '') result = event.targetId;\nelse if(event.targetClass != '') result = event.targetClass;\nelse if(event.parentId != '') result = event.parentId;\nelse if(event.parentClass != '') result = event.parentClass;\nelse result = event.targetClass;;return result;})",
+            "generator": "pointerup/svg//marks"
+        },
+        {
+            "type": "touchend",
+            "name": "touchend-on-marks",
+            "dataType": "marks",
+            "contributeToAnswer": "Yes",
+            "specializeEvent": "(function(event){if(event.type != 'touchend') return false;var result = false;if(event.targetClass.split('.').includes('marks')) result = true;;return result;})",
+            "traceData": "(function(event){var result = null;if(event.targetId != '') result = event.targetId;\nelse if(event.targetClass != '') result = event.targetClass;\nelse if(event.parentId != '') result = event.parentId;\nelse if(event.parentClass != '') result = event.parentClass;\nelse result = event.targetClass;;return result;})",
+            "generator": "touchend/svg//marks"
+        },
+        {
+            "type": "touchstart",
+            "name": "touchstart-on-marks",
+            "dataType": "marks",
+            "contributeToAnswer": "Yes",
+            "specializeEvent": "(function(event){if(event.type != 'touchstart') return false;var result = false;if(event.targetClass.split('.').includes('marks')) result = true;;return result;})",
+            "traceData": "(function(event){var result = null;if(event.targetId != '') result = event.targetId;\nelse if(event.targetClass != '') result = event.targetClass;\nelse if(event.parentId != '') result = event.parentId;\nelse if(event.parentClass != '') result = event.parentClass;\nelse result = event.targetClass;;return result;})",
+            "generator": "touchstart/svg//marks"
+        },
+        {
+            "type": "click",
+            "name": "click-on-zoomable-scatter-plot-svg",
+            "dataType": "zoomable-scatter-plot-svg",
+            "contributeToAnswer": "Yes",
+            "specializeEvent": "(function(event){if(event.type != 'click') return false;var result = false;if(event.targetId == 'zoomable-scatter-plot-svg') result = true;;return result;})",
+            "traceData": "(function(event){var result = null;if(event.targetId != '') result = event.targetId;\nelse if(event.targetClass != '') result = event.targetClass;\nelse if(event.parentId != '') result = event.parentId;\nelse if(event.parentClass != '') result = event.parentClass;\nelse result = event.targetId;;return result;})",
+            "generator": "click/A/zoomable-scatter-plot-svg/"
+        },
+        {
+            "type": "click",
+            "name": "click-on-zoomable-scatter-plot-png",
+            "dataType": "zoomable-scatter-plot-png",
+            "contributeToAnswer": "Yes",
+            "specializeEvent": "(function(event){if(event.type != 'click') return false;var result = false;if(event.targetId == 'zoomable-scatter-plot-png') result = true;;return result;})",
+            "traceData": "(function(event){var result = null;if(event.targetId != '') result = event.targetId;\nelse if(event.targetClass != '') result = event.targetClass;\nelse if(event.parentId != '') result = event.parentId;\nelse if(event.parentClass != '') result = event.parentClass;\nelse result = event.targetId;;return result;})",
+            "generator": "click/A/zoomable-scatter-plot-png/"
+        },
+        {
+            "type": "wheel",
+            "name": "wheel-on-marks",
+            "dataType": "marks",
+            "contributeToAnswer": "Yes",
+            "specializeEvent": "(function(event){if(event.type != 'wheel') return false;var result = false;if(event.targetClass.split('.').includes('marks')) result = true;;return result;})",
+            "traceData": "(function(event){var result = null;if(event.targetId != '') result = event.targetId;\nelse if(event.targetClass != '') result = event.targetClass;\nelse if(event.parentId != '') result = event.parentId;\nelse if(event.parentClass != '') result = event.parentClass;\nelse result = event.targetClass;;return result;})",
+            "generator": "wheel/svg//marks"
+        },
+        {
+            "type": "touchmove",
+            "name": "touchmove-on-marks",
+            "dataType": "marks",
+            "contributeToAnswer": "Yes",
+            "specializeEvent": "(function(event){if(event.type != 'touchmove') return false;var result = false;if(event.targetClass.split('.').includes('marks')) result = true;;return result;})",
+            "traceData": "(function(event){var result = null;if(event.targetId != '') result = event.targetId;\nelse if(event.targetClass != '') result = event.targetClass;\nelse if(event.parentId != '') result = event.parentId;\nelse if(event.parentClass != '') result = event.parentClass;\nelse result = event.targetClass;;return result;})",
+            "generator": "touchmove/svg//marks"
+        }
+    ],
+    "initialQuestions": [
+        {
+            "id": 1,
+            "text": "What is your age ?",
+            "responseType": "multiple-choice",
+            "options": [
+                "Under 18",
+                "18-24",
+                "25-34",
+                "35-44",
+                "45-54",
+                "More than 54"
+            ],
+            "images": [],
+            "mandatory": true
+        },
+        {
+            "id": 2,
+            "text": "Select your gender:",
+            "responseType": "multiple-choice",
+            "options": [
+                "Male",
+                "Female"
+            ],
+            "images": [],
+            "mandatory": true
+        }
+    ],
+    "systemQuestions": [
+        {
+            "id": 1,
+            "text": "T",
+            "responseType": "auto-computed-list",
+            "options": [],
+            "images": [],
+            "dataType": "undefined",
+            "beforeFunction": "(function(){/*body-start*//*Call this function to notify to Stein that the system is loaded.*/\nif(SteinLib) SteinLib.systemLoaded();/*body-end*/;})",
+            "afterFunction": "(function(){/*body-start*//*body-end*/;})",
+            "mandatory": true,
+            "trackMouse": false,
+            "trackMouseInterval": 200
+        }
+    ],
+    "finalQuestions": [
+        {
+            "id": 1,
+            "text": "Please provide us additional comments if you have any.",
+            "responseType": "large-text",
+            "options": [],
+            "images": [],
+            "mandatory": true
+        }
+    ]
+}
